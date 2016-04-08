@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<style>
+* { box-sizing :border-box; }
+
+h2 { text-align:center; margin-bottom :25px; }
+
+body {
+	margin-right:50px;
+	width : 100%;
+}
+p { margin-left:auto; margin-right:auto;
+    width : 90%;
+    margin-top : 25px;
+}
+.row {
+	padding-left:10px;padding-right:10px;	
+}
+.inner-row { position : relative;  }
+.sub-menu { 	border : black 1px solid; margin-bottom : 15px; width:95%; background-color:#E5E0D1;
+}
+.sub-title { 	border : black 1px solid;
+		position : relative;
+		height : 22px; width : 100px;
+		text-align : center ;	
+		float : right;	
+}
+.col-lg-4, .col-md-6 ,.col-sm-10 { float:left; }
+@media (min-width:992px) { .col-lg-4 { width : 33%; } }
+@media (min-width:768px) and (max-width:991px) { .col-md-6 { width : 48%; } 
+.col-md-12 { width : 98%; } 
+}
+@media (max-width:767px) { .col-sm-10 { width : 98%; }
+
+</style>
+
+<body>
+<h2>Our Menu</h2>
+	<div class="row">
+	    <div class="inner-row col-lg-4 col-md-6 col-sm-10 " >
+		<div class="sub-menu ">
+			<div class="sub-title">Chicken</div>
+				<p>  Test Lorem sipsum Test Lorem sipsum Test Lorem sipsum Test Lorem sipsum Test Lorem 					sipsum Test Lorem sipsum Test Lorem sipsum Test Lorem sipsum </p>
+		</div>
+	     </div>
+	     <div class="inner-row col-lg-4 col-md-6 col-sm-10 " >
+		<div class="sub-menu ">
+			<div class="sub-title">Beef</div>
+				<p>Test Lorem sipsum Test Lorem sipsum Test Lorem sipsum Test Lorem sipsum Test Lorem 					sipsum Test Lorem sipsum Test Lorem sipsum Test Lorem sipsum </p>
+			</div>
+		</div>
+	      <div class="inner-row col-lg-4 col-md-12 col-sm-10" >
+			<div class="sub-menu ">
+				<div class="sub-title">Sushi</div>
+				<p> Test Lorem sipsum Test Lorem sipsum Test Lorem sipsum Test Lorem sipsum Test Lorem 					sipsum Test Lorem sipsum Test Lorem sipsum Test Lorem sipsum </p>
+			</div>
+	       </div>
+       </div>
+</body>
+</html>
